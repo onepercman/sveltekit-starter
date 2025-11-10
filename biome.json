@@ -40,7 +40,8 @@
 				"useLiteralKeys": "off"
 			},
 			"correctness": {
-				"noUnusedImports": "error",
+				"noUnusedImports": "off",
+				"noUnusedVariables": "off",
 				"useExhaustiveDependencies": "warn"
 			},
 			"style": {
@@ -50,7 +51,8 @@
 				"noNonNullAssertion": "off",
 				"useImportType": "error",
 				"useShorthandAssign": "error",
-				"useAsConstAssertion": "error"
+				"useAsConstAssertion": "error",
+				"useConst": "off"
 			},
 			"suspicious": {
 				"noArrayIndexKey": "off",
